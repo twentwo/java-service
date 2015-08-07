@@ -52,6 +52,7 @@
 	</properties>
 	
 	<build>
+		<finalName>java-gearman-service-0.7.0</finalName>
 	    <resources>
 	        <resource>
 	        	<directory>src/main/resources</directory>
@@ -60,7 +61,7 @@
 	    </resources>
 	    
 		<plugins>
-		    
+
 		    <!-- Compile -->
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
