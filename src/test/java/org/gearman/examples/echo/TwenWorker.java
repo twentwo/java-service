@@ -8,10 +8,10 @@ import org.gearman.*;
 public class TwenWorker implements GearmanFunction {
 
     /** The echo function name */
-    public static final String ECHO_FUNCTION_NAME = "twen";
+    public static final String ECHO_FUNCTION_NAME = "echo";
 
     /** The host address of the job server */
-    public static final String ECHO_HOST = "localhost";
+    public static final String ECHO_HOST = "192.168.56.101";
 
     /** The port number the job server is listening on */
     public static final int ECHO_PORT = 4730;
