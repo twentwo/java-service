@@ -55,7 +55,7 @@ public class EchoClient {
          *
          * The GearmanJobReturn is used to poll the job's result
          */
-        GearmanJobReturn jobReturn = client.submitBackgroundJob(
+        GearmanJobReturn jobReturn = client.submitJob(
                 EchoWorker.ECHO_FUNCTION_NAME, ("Hello World").getBytes());
 
         /*
